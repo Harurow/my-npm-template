@@ -1,8 +1,20 @@
 {
+    "files.exclude": {
+        "package-lock.json": true,
+        "rollup.config.js": true,
+        "tsconfig.cjs.json": true,
+        "tsconfig.esm.json": true,
+        "tsconfig.json": true,
+        "node_modules": true,
+        ".gitignore": true,
+        ".eslintrc.json": true,
+        ".editorconfig": true,
+        ".eslintignore": true,
+        ".prettierrc.yml": true,
+        ".vscode": true,
+        "jest.config.json": true
+    },
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
-    },
-    "files.exclude": {
-        "node_modules": true
     }
 }
